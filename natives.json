@@ -63330,6 +63330,43 @@
 			"old_names": [
 				"_NETWORK_UGC_NAV"
 			]
+		},
+		"0x7F7E8401F81CB65B": {
+			"name": "_0x7F7E8401F81CB65B",
+			"jhash": "",
+			"comment": "",
+			"params": [],
+			"return_type": "int",
+			"build": "3323"
+		},
+		"0x0A141818CA2311AD": {
+			"name": "_0x0A141818CA2311AD",
+			"jhash": "",
+			"comment": "",
+			"params": [],
+			"return_type": "void",
+			"build": "3323"
+		},
+		"0x47B11D51FC50A259": {
+			"name": "_0x47B11D51FC50A259",
+			"jhash": "",
+			"comment": "",
+			"params": [],
+			"return_type": "const char*",
+			"build": "3323"
+		},
+		"0xCBA50F371E45B90D": {
+			"name": "_0xCBA50F371E45B90D",
+			"jhash": "",
+			"comment": "",
+			"params": [
+				{
+					"type": "int",
+					"name": "p0"
+				}
+			],
+			"return_type": "const char*",
+			"build": "3323"
 		}
 	},
 	"OBJECT": {
