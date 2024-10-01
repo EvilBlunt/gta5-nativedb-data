@@ -63332,37 +63332,37 @@
 			]
 		},
 		"0x7F7E8401F81CB65B": {
-			"name": "_0x7F7E8401F81CB65B",
+			"name": "_NETWORK_GET_GAME_RESTART_REASON",
 			"jhash": "",
-			"comment": "",
+			"comment": "enum eNetworkGameRestartReason\n{\n\tBE_RESTART_SERVICE_NOT_RUNNING = 1, \t// BattlEye service not running\n\tBE_RESTART_SERVICE_NEEDS_UPDATE, \t\t// BattlEye service needs an update\n\tBE_RESTART_UNKNOWN_REASON,\t\t\t\t// Unknown BattlEye reason\n\tBE_RESTART_EF_DISABLED_WITH_BE,\t\t\t// BattlEye Enforcement Flag is disabled, but BattlEye is active\n\tBE_RESTART_EF_ENABLED_NO_BE,\t\t\t// BattlEye Enforcement Flag is enabled, but BattlEye is not active\n\tBE_RESTART_BE_MODULES_FAILED_TO_LOAD,\t// BattlEye modules failed to load\n\tNUM_NETWORK_GAME_RESTART_REASONS\n};",
 			"params": [],
 			"return_type": "int",
 			"build": "3323"
 		},
 		"0x0A141818CA2311AD": {
-			"name": "_0x0A141818CA2311AD",
+			"name": "_NETWORK_CONFIRM_GAME_RESTART",
 			"jhash": "",
-			"comment": "",
+			"comment": "If the restart reason is 4 (BE_RESTART_EF_DISABLED_WITH_BE), will cause the game to exit with exit code 622011. Otherwise exits with code 622010. Has no effect when a restart hasn't been requested (reason == 0 or reason > 6).\n\nNote that this 'confirmation' itself does not restart the game, a call to QUIT_GAME or similar is required afterwards.",
 			"params": [],
 			"return_type": "void",
 			"build": "3323"
 		},
 		"0x47B11D51FC50A259": {
-			"name": "_0x47B11D51FC50A259",
+			"name": "_NETWORK_GET_GAME_RESTART_REASON_MESSAGE_LABEL",
 			"jhash": "",
-			"comment": "",
+			"comment": "Returns the restart reason as a string, see _NETWORK_GET_GAME_RESTART_REASON. Returns a null pointer when a restart hasn't been requested (reason == 0 or reason > 6).",
 			"params": [],
 			"return_type": "const char*",
 			"build": "3323"
 		},
 		"0xCBA50F371E45B90D": {
-			"name": "_0xCBA50F371E45B90D",
+			"name": "_NETWORK_GET_BATTLEYE_ERROR_MESSAGE_LABEL",
 			"jhash": "",
-			"comment": "",
+			"comment": "0x20211000 = HUD_BE_ERROR_FAILED_UNKNOWN\n0x20212000 = HUD_BE_ERROR_FAILED_CLIENT_INIT\n0x20213000 = HUD_BE_ERROR_FAILED_SERVER_INIT\n0x20214000 = HUD_BE_ERROR_FAILED_AUTH_ATTEMPTS\n0x20215000 = HUD_BE_ERROR_UNTRUSTED_HOST\n0x20216000 = HUD_BE_ERROR_KICKED\n0x20217000 = HUD_BE_ERROR_BANNED\n0x50140000 = HUD_BE_BLOCK_BANNED\n\nNote: an invalid error code returns a null pointer!",
 			"params": [
 				{
 					"type": "int",
-					"name": "p0"
+					"name": "errorCode"
 				}
 			],
 			"return_type": "const char*",
