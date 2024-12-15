@@ -116229,15 +116229,15 @@
 		"0xEDBC8405B3895CC9": {
 			"name": "SET_DISABLE_HELI_EXPLODE_FROM_BODY_DAMAGE",
 			"jhash": "",
-			"comment": "",
+			"comment": "Prevents the vehicle from exploding when taking body damage. Only works for helis and planes.",
 			"params": [
 				{
-					"type": "Any",
-					"name": "p0"
+					"type": "Vehicle",
+					"name": "vehicle"
 				},
 				{
-					"type": "Any",
-					"name": "p1"
+					"type": "BOOL",
+					"name": "disable"
 				}
 			],
 			"return_type": "void",
@@ -116246,24 +116246,24 @@
 		"0x26E13D440E7F6064": {
 			"name": "SET_DISABLE_EXPLODE_FROM_BODY_DAMAGE_ON_COLLISION",
 			"jhash": "",
-			"comment": "",
+			"comment": "Prevents the vehicle from exploding when taking body damage if it was caused by a collision. Only works for planes.",
 			"params": [
 				{
 					"type": "Vehicle",
 					"name": "vehicle"
 				},
 				{
-					"type": "float",
-					"name": "value"
+					"type": "BOOL",
+					"name": "disable"
 				}
 			],
 			"return_type": "void",
 			"build": "1290"
 		},
 		"0xB0B7DF5CB876FF5E": {
-			"name": "_SET_DISABLE_EXPLODE_PLANE_FROM_BODY_DAMAGE_ON_COLLISION",
+			"name": "_SET_DISABLE_EXPLODE_FROM_BODY_DAMAGE_RECEIVED_BY_AI_VEHICLE",
 			"jhash": "",
-			"comment": "",
+			"comment": "Prevents the vehicle from exploding when taking body damage if the inflictor is an AI-controlled vehicle. Only works for planes.",
 			"params": [
 				{
 					"type": "Vehicle",
@@ -116465,7 +116465,7 @@
 			"build": "1290"
 		},
 		"0xDD8A2D3337F04196": {
-			"name": "_SET_PLANE_CONTROL_PARTS_BREAK_OFF_INSTANTLY",
+			"name": "SET_PLANE_CONTROL_SECTIONS_SHOULD_BREAK_OFF_FROM_EXPLOSIONS",
 			"jhash": "",
 			"comment": "",
 			"params": [
