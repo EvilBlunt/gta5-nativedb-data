@@ -11,4 +11,4 @@ jobs:
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
           INPUT_SCHEMA: ./schema.json
-          INPUT_JSONS: ./natives.json
+          INPUT_JSONS: ./natives.json,./natives_gen9.json
