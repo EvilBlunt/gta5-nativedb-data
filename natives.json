@@ -1,5 +1,5 @@
 {
-	"SYSTEM": {
+	"BUILTIN": {
 		"0x4EDE34FBADD967A6": {
 			"name": "WAIT",
 			"jhash": "0x7715C03B",
@@ -16153,7 +16153,7 @@
 			"build": "323"
 		}
 	},
-	"FILES": {
+	"EXTRAMETADATA": {
 		"0x278F76C3B0A8F109": {
 			"name": "GET_NUM_TATTOO_SHOP_DLC_ITEMS",
 			"jhash": "0x71D0CF3E",
@@ -25786,7 +25786,7 @@
 		"0xEE831F15A8D0D94A": {
 			"name": "_SET_TV_CHANNEL_PLAYLIST_DIRTY",
 			"jhash": "",
-			"comment": "",
+			"comment": "Does not actually return anything.",
 			"params": [
 				{
 					"type": "int",
@@ -25797,7 +25797,7 @@
 					"name": "p1"
 				}
 			],
-			"return_type": "void",
+			"return_type": "Any",
 			"build": "3095"
 		},
 		"0xBEB3D46BB7F043C0": {
@@ -35335,7 +35335,7 @@
 			"build": "323"
 		}
 	},
-	"LOADINGSCREEN": {
+	"LOBBY": {
 		"0xF2CA003F167E21D2": {
 			"name": "LOBBY_AUTO_MULTIPLAYER_MENU",
 			"jhash": "0x106C8317",
@@ -68716,7 +68716,7 @@
 					"name": "heading"
 				}
 			],
-			"return_type": "Vector3",
+			"return_type": "void",
 			"build": "2944"
 		},
 		"0x2EB41072B4C1E4C0": {
