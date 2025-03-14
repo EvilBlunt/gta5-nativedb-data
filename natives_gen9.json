@@ -50846,6 +50846,14 @@
 				"_NETWORK_SHOP_GET_TRANSACTIONS_DISABLED"
 			]
 		},
+		"0x2D3A836D29A50D88": {
+			"name": "_NET_GAMESERVER_FLAG_FOR_SESSION_RESTART",
+			"jhash": "",
+			"comment": "Instructs the transaction session manager to perform a session restart as soon as possible.\nThis is different from NET_GAMESERVER_START_SESSION_RESTART which, despite its name, does not actually restart the session (it only requests fresh inventory and/or balance data from the server).\nReturns true if it was possible to set the flag.",
+			"params": [],
+			"return_type": "BOOL",
+			"build": "812"
+		},
 		"0x35A1B3E1D1315CFA": {
 			"name": "NET_GAMESERVER_START_SESSION_RESTART",
 			"jhash": "",
