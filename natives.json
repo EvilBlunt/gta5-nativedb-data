@@ -39224,6 +39224,14 @@
 			"return_type": "BOOL",
 			"build": "2545"
 		},
+		"0xE2BCD0EFAE90D1F4": {
+			"name": "_IS_XBOXPC_VERSION",
+			"jhash": "",
+			"comment": "",
+			"params": [],
+			"return_type": "BOOL",
+			"build": "3504"
+		},
 		"0x9F1935CA1F724008": {
 			"name": "IS_AUSSIE_VERSION",
 			"jhash": "0x944BA1DC",
@@ -51087,6 +51095,14 @@
 			"return_type": "BOOL",
 			"build": "323"
 		},
+		"0xA6BC0D9BCF9662FA": {
+			"name": "_NETWORK_MULTIPLAYER_CROSSPLAY_NOT_ALLOWED",
+			"jhash": "",
+			"comment": "For the XboxPC version this returns true if XPRIVILEGE_MULTIPLAYER_SESSIONS is granted but XPRIVILEGE_CROSS_PLAY is NOT granted.\nFor more information, see https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/live/features/identity/privileges/concepts/live-user-privileges-client#privilege-ids-to-check\n\nAlways returns false for non-XboxPC versions.",
+			"params": [],
+			"return_type": "BOOL",
+			"build": "3504"
+		},	
 		"0x1353F87E89946207": {
 			"name": "NETWORK_HAS_AGE_RESTRICTIONS",
 			"jhash": "",

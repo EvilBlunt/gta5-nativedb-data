@@ -39374,6 +39374,14 @@
 			"return_type": "BOOL",
 			"build": "811"
 		},
+		"0xE2BCD0EFAE90D1F4": {
+			"name": "_IS_XBOXPC_VERSION",
+			"jhash": "",
+			"comment": "",
+			"params": [],
+			"return_type": "BOOL",
+			"build": "813"
+		},
 		"0x9F1935CA1F724008": {
 			"name": "IS_AUSSIE_VERSION",
 			"jhash": "0x944BA1DC",
