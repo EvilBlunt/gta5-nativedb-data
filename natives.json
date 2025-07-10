@@ -54778,7 +54778,8 @@
 				}
 			],
 			"return_type": "int",
-			"build": "3586"
+			"build": "3586",
+			"unused": true
 		},
 		"0xB99CD664FD4720A1": {
 			"name": "_NETWORK_GET_PLAYER_BROADCAST_DATA_SIZE_UNSYNCED",
@@ -54803,7 +54804,8 @@
 				}
 			],
 			"return_type": "int",
-			"build": "3586"
+			"build": "3586",
+			"unused": true
 		},
 		"0xE448693B3EA3B92C": {
 			"name": "_NETWORK_GET_BROADCAST_DATA_HOST_UPDATE_SIZE",
@@ -54828,7 +54830,8 @@
 				}
 			],
 			"return_type": "int",
-			"build": "3586"
+			"build": "3586",
+			"unused": true
 		},
 		"0xAC3F722321800755": {
 			"name": "_NETWORK_GET_BROADCAST_DATA_PLAYER_UPDATE_SIZE",
@@ -54853,7 +54856,8 @@
 				}
 			],
 			"return_type": "int",
-			"build": "3586"
+			"build": "3586",
+			"unused": true
 		},
 		"0x5D10B3795F3FC886": {
 			"name": "NETWORK_HAS_RECEIVED_HOST_BROADCAST_DATA",
